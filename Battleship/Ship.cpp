@@ -10,3 +10,8 @@ Ship::Ship()
 Ship::~Ship()
 {
 }
+
+string Ship::getName()
+{
+	return Type;
+}

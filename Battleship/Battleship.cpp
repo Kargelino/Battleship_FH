@@ -1,8 +1,12 @@
 
 #include "pch.h"
 #include <iostream>
+#include "Grid.h"
+#include "Game.h"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	Game Spiel;
+	Spiel.init();
 }
